@@ -22,15 +22,15 @@
 
     imu/calibration: true
     imu/intrinsics/accel/bias: [ 0.0, 0.0, 0.0 ]
-    imu/intrinsics/accel/sm: [1.0, 0.0,  0.0,
-                                0.0,  1.0,  0.0,
-                                0.0,  0.0,  1.0 ]
+    imu/intrinsics/accel/sm:   [ -1.0,  0.0,  0.0,
+                                  0.0,  1.0,  0.0,
+                                  0.0,  0.0,  -1.0 ]
     imu/intrinsics/gyro/bias: [ 0.0, 0.0, 0.0 ]
 
-    extrinsics/baselink2imu/t: [ -0.085,  0.0,  -0.055 ]
-    extrinsics/baselink2imu/R: [1.0, 0.0,  0.0,
-                                0.0,  1.0,  0.0,
-                                0.0,  0.0,  1.0 ]
+    extrinsics/baselink2imu/t: [ -0.023,  0.13,  -0.07 ]
+    extrinsics/baselink2imu/R: [ -1.0,  0.0,  0.0,
+                                  0.0,  1.0,  0.0,
+                                  0.0,  0.0,  -1.0 ]
     extrinsics/baselink2lidar/t: [ 0.0,  0.0,  0.0 ]
     extrinsics/baselink2lidar/R: [ 1.0,  0.0,  0.0,
                                    0.0,  1.0,  0.0,
